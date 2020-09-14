@@ -1,0 +1,159 @@
+/**
+* 
+* /src/styles.scss
+* 
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import "~@angular/material/prebuilt-themes/indigo-pink.css"; 
+
+body, html {
+    height: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 16px;
+		color: #000!important;
+		background-color: #FAFAFA!important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.3em;
+    display: grid;
+    grid-template-columns: 30% auto;
+
+    a {
+        color: white;
+    }
+}
+
+/***
+section {
+    width: 100%;;
+    margin: 0 auto;
+    padding: 2em;
+}
+***/
+
+		/*****************************************/
+		/* Меню-бар бла-а-а-родного GOOGLE цвета */
+		/*****************************************/
+		.us-bar
+		{
+			color: #fff!important;
+			background-color: #3367D6!important;
+			/*height: 58px;*/
+			height: 58px;
+			/*text-transform: uppercase;*/
+			
+		}
+		.us-color-sky{
+			color: #000000!important;
+			background-color: #E0EBFD!important;
+		}
+		.us-pad-10
+		{
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		.us-sel-menu-item
+		{
+			border-bottom: 5px solid #ccc!important;
+			border-color: #f44336!important;
+		}
+
+.us-codepre,.us-codespan{
+  font-family:Consolas,"courier new";
+  font-size:16px;
+  }
+.us-codepre {
+  font-size:90%;
+}
+.us-codespan {
+  color:crimson;
+  background-color:#f1f1f1;
+  padding-left:4px;
+  padding-right:4px;
+  font-size:100%;
+}  
+   
+hr.thin-top-border {
+  border-top: 1px solid #F0F0F0;
+}
+
+.thin-top-border {
+  border-top: 1px solid #F0F0F0;
+}
+
+.us-trans {
+	color: #000!important;
+	/* background-color: #ddffff!important; */
+}
+
+.us-card-00 {
+	/* margin: auto; */
+	margin-left: 8px !important;
+	margin-right: 8px !important;
+	margin-top: 8px !important;
+	margin-bottom: 8px !important;
+}
+
+.us-panel{
+	padding: 8px !important;}
+
+ 
+/*************/
+/*** Table ***/
+/*************/
+		
+table {
+	width: 100%;
+}
+table, th, td {
+	border: 1px solid lightgrey;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 15px;
+	text-align: left;
+}
+table th {
+	background-color: #FAFAFA;
+	/*color: white;*/
+}
+
+.font-weight-300 {
+	font-weight:300 };
+	
+.font-weight-400 {
+	font-weight:400 };
+
+/*******************/
+.font-weight-500 {
+	font-weight:500 };
+/*******************/
+
+.font-weight-600 {
+	font-weight:600 };
+/* 	
+.text-align-left {
+	text-align: left };
+.text-align-center {
+	text-align: center };
+.text-align-right {
+	text-align: right };
+*/
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 		
